@@ -1,0 +1,20 @@
+@import url('globals.css');
+@import url('resets.css');
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+/**
+ * This houses all the header classes
+ *
+ * This section also stores all of the splash (slider) css classes
+ *
+ * Excludes:
+ *
+ * All of the external css files that are used to render the slider (direct download)
+ */
+
+ header{
+ 	background: url(img/bg.jpg) repeat-x;
+ }
