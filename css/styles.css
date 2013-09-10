@@ -82,10 +82,107 @@ End Header	*
 .internal-splash  {
 	background: url(../img/splash-internal.jpg) no-repeat;
 }
-.services select {
+.services p {
+	display: inline-block;
+	margin-top: 34px;
+	color: #fff;
+	font-weight: 300;
+}
+.oil-change {
 	background-color: #da353d;
 	color: #fff;
+	border: none;
+	padding: 15px;
+	margin-top: 35px;
 }
+.oil-change option {
+	padding-right: 225px;
+}
+.internal-splash aside {
+	width: 24%;
+	margin-top: 75px;
+}
+.schedule {
+	background-color: #2a2a2a;
+	padding: 30px;
+}
+.schedule h2 {
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+.schedule p {
+	font-family: 'Arial', sans-serif;
+	font-size: 13px;
+	color: #c2c2c2;
+	margin-bottom: 15px;
+}
+.schedule input {
+	margin: 6px 0;
+	width: 100%;
+}
+.schedule select {
+	width: 100%;
+	color: #848484;
+	margin: 6px 0;
+}
+.submit-form {
+	margin-top: 6px;
+	display: inline-block;;
+	background-color: #f8bf1c;
+	padding: 5px 0;
+}
+.submit-form a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding: 5px 54px;
+}
+.fb {
+	margin-top: 10px;
+}
+.scheduler p {
+	font-family: 'Arial', sans-serif;
+	font-size: 13px;
+	color: #8e8e8e;
+	margin:20px 0 15px 0;
+}
+.services-content {
+	width: 75%;
+	margin-top: 75px; 
+	padding-left: 35px;
+}
+.services-content h2 {
+	color: #da353e;
+	font-size: 42px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+.services-content h3 {
+	font-family: 'Lato',sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	color: #2a2a2a;
+	margin-bottom: 20px;
+}
+.services-content p {
+	font-family: 'Arial',sans-serif;
+	font-size: 15px;
+	color: #5b5b5b;
+	margin-bottom: 20px;
+}
+.services-content li {
+	list-style: disc;
+	font-family: 'Lato',sans-serif;
+	font-size: 18px;
+	color: #2a2a2a;
+	font-weight: 300;
+	padding: 5px 0;
+}
+
 
 
 /* ==========================================================================
@@ -267,6 +364,12 @@ End Bottom Content & Footer	*
 }
 .left {
 	float: left;
+}
+.center {
+	text-align: center;
+}
+.bold {
+	font-weight: 800;
 }
  /* =============================================================================
   Media Queries
