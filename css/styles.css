@@ -75,6 +75,19 @@
 End Header	*
 */
 
+
+/* ==========================================================================
+   Services Page
+   ========================================================================== */
+.internal-splash  {
+	background: url(../img/splash-internal.jpg) no-repeat;
+}
+.services select {
+	background-color: #da353d;
+	color: #fff;
+}
+
+
 /* ==========================================================================
    Bottom Content & Footer
    ========================================================================== */
@@ -209,11 +222,26 @@ End Bottom Content & Footer	*
 .red{
 	color:#da353d !important;
 }
+.yellow {
+	color: #ffd200;
+}
 .dark-gray{
 	color: #333333 !important;
 }
 .size-30 {
 	font-size: 30px;
+}
+.size-42 {
+	font-size: 42px;
+}
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
 }
  /* =============================================================================
   Media Queries
