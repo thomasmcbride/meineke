@@ -1,5 +1,6 @@
 @import url('globals.css');
 @import url('resets.css');
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 
 /* ==========================================================================
    Header
@@ -16,5 +17,226 @@
  */
 
  header{
- 	background: url(img/bg.jpg) repeat-x;
+ 	background: url(../img/bg.jpg) repeat-x;
+ 	height: 108px;
  }
+ header nav{
+ 	padding-top: 5px;
+ }
+ header nav ul li{
+ 	float:left;
+ 	margin-right: 35px;
+ }
+  header nav ul li:last-child{
+ 	margin-right: 0px;
+ }
+ header nav ul li a{
+ 	font-weight: normal;
+ 	font-family: 'Lato', sans-serif;
+ 	color: #bbb;
+ 	font-size:14px;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ }
+ header nav ul li a:hover{
+ 	color: #fff;
+ }
+ header nav ul li a.active{
+ 	color: #fff;
+ }
+ .header-btns{
+	padding-top: 5px;
+ }
+ .header-btns a{
+	background: url(../img/btn-bg.jpg) repeat-x;
+ 	padding: 3px 5px;
+ 	border-radius: 2px;
+ 	-moz-border-radius: 2px;
+ 	text-decoration: none;
+ 	font-size: 13.28px;
+ 	font-weight: 700;
+ 	margin-right: 10px;
+ }
+ .header-btns a:last-child{
+ 	margin-right: 0px;
+ }
+ .header-info{
+ 	padding-top: 7px;
+ }
+ .header-info p{
+ 	color: #2a2a2a;
+ 	font-size: 13px;
+ 	font-weight: normal;
+ 	font-family: 'Lato', sans-serif;
+ 	line-height: 18px;
+ 	text-align: right;
+ }
+/*
+End Header	*
+*/
+
+/* ==========================================================================
+   Bottom Content & Footer
+   ========================================================================== */
+/**
+ * This houses all the Bottom Content classes
+ *
+ * This section also stores all of the Footer css classes
+ *
+ */
+
+.bottom-content{
+	background: url(../img/btm-bg.png) repeat-x;
+	margin-top: 40px;
+}
+.banner{
+	background: url(../img/footer-banner.png) no-repeat;
+	width: 287px;
+	height: 269px;
+	margin-top: -29px;
+	padding: 10px 15px;
+}
+.banner h1{
+	text-align: center;
+	color: #686868;
+	font-size: 20.51px;
+	margin-right: 30px;
+	border-bottom: dotted 1px #bbbbbb;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.banner p{
+	margin: 15px 30px 0 0;
+	font-size: 13px;
+	color: #959595;
+	padding:0px 20px;
+}
+.banner form {
+	margin-top: 15px; 
+	margin-left: 0px; 
+	width: 227px;
+}
+.email {
+	width: 227px; 
+	padding: 10px;
+	color: #6a6a6a;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	border: none;
+}
+.submit {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	background-color: #fd3e48;
+	padding: 5px 10px;
+	border: none;
+	margin-left: 80px;
+    margin-top: 15px;
+    font-weight: 900;
+}
+.submit:hover{
+	background-color: #ff5861;
+}
+
+.quote{
+	padding: 20px 0px 70px;
+}
+.quote h1{
+	color:#f8bf1c;
+	font-size: 35px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+.quote p{
+	color: #fff;
+	font-size: 18px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 16px 0;
+}
+.quote p span{
+	color: #f8bf1c;
+}
+.btm-text p{
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #5b5b5b;
+	margin: 16px 0;
+}
+
+footer{
+	border-top: 1px solid #d7d7d7;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.table-cell h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	color: #6b6b6b;
+}
+.table-layout{
+	display: table;
+}
+.table-layout .table-cell{
+	display: table-cell;
+	padding:10px 20px;
+}
+ul.site-links li{
+	width: 120px;
+}
+ul.site-links li a{
+	color: #898989;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+footer p{
+	color: #898989;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+
+/*
+End Bottom Content & Footer	*
+*/
+.red{
+	color:#da353d !important;
+}
+.dark-gray{
+	color: #333333 !important;
+}
+.size-30 {
+	font-size: 30px;
+}
+ /* =============================================================================
+  Media Queries
+  ========================================================================== */
+
+@media only screen and (min-width:1100px) {
+       .wrap {
+               width:1100px;
+               margin:0 auto;        
+       }
+}
+
+@media only screen and (max-width:768px) {
+}
+
+@media only screen and (max-width:640px) {
+}
+
+@media only screen and (max-width:480px) {
+}
+
+@media only screen and (max-width:360px) {
+}
+
+@media only screen and (max-width:320px) {
+}
