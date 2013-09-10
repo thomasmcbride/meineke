@@ -178,6 +178,7 @@ footer{
 	font-size: 24px;
 	font-weight: 300;
 	color: #6b6b6b;
+	margin-bottom: 15px;
 }
 .table-layout{
 	display: table;
@@ -195,14 +196,38 @@ ul.site-links li a{
 	font-size: 12px;
 	text-decoration: none;
 }
+ul.site-links li a:hover{
+	text-decoration: underline;
+}
 footer p{
 	color: #898989;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 18px;
 }
-
-
+.copywrite{
+	background-color: #2a2a2a;
+	padding: 15px 0px;
+	margin-top: 20px;
+}
+.copywrite ul{
+	text-align: center;
+}
+.copywrite ul li{
+	display: inline-block;
+	color: #5f5f5f;
+	font-size: 10.99px;
+	padding: 0 5px;
+}
+.copywrite ul li a{
+	text-decoration: none;
+	color: #5f5f5f;
+	font-size: 10.99px;
+	padding: 0 5px;
+}
+.copywrite ul li a:hover{
+	text-decoration: underline;
+}
 /*
 End Bottom Content & Footer	*
 */

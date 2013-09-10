@@ -1,46 +1,3 @@
-
-<!DOCTYPE html>
-<!--[if IE 7]><html class="ie7" lang="en"><![endif]-->
-<!--[if IE 9]><html class="ie9" lang="en"><![endif]-->
-<!--[if lte IE 8]><html class="ie8" lang="en"><![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"><!--<![endif]-->
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
-<link rel="stylesheet" href="css/styles.css" type="text/css"/>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->   
-</head>
-
-<body>
-
-<header>
-	<div class="wrap clearfix">
-		<div class="logo left"><img src="img/logo.jpg" alt="Meineke Logo"></div>
-		<div class="header-info right">
-			<p class="red">My Store: Arrowhead, AZ</p>
-			<p>8880 W Bell Rd.  Peoria, AZ 85382</p>
-			<p><strong>(623) 974-4172</strong></p>
-		</div>
-		<div class="clearfix"></div><!-- Clearfix -->
-		<nav class="left">
-			<ul>
-				<li><a href="#" class="active">Home</a></li>
-				<li><a href="#">Auto Services</a></li>
-				<li><a href="#">Coupons</a></li>
-				<li><a href="#">Change Location</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-		</nav>
-		<div class="header-btns right">
-			<a href="#">Schedule an Appointment</a> <a href="#">Find a Store</a>			
-		</div>
-	</div>
-</header><!-- End of Header -->
-
 <div class="bottom-content clearfix">
 	<div class="wrap clearfix">
 		<div class="left thirty">
@@ -67,8 +24,3 @@
 		</div><!-- End right seventy -->
 	</div><!-- End wrap clearfix -->
 </div><!-- End bottom-content -->
-
-
-</body>
-
-</html>
