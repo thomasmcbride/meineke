@@ -132,9 +132,22 @@ a.btn:active {
 .btn-light-blue {
 	background-color: #4e9ee0;
 }
+
+.twenty{
+	width:20%;
+}
 .thirty{
 	width:30%;
 }
+.fourty9{
+	width: 49%;
+}
+.fifty{
+	width:50%;
+}
 .seventy{
 	width: 70%;
+}
+.seventy5{
+	width: 75%;
 }
