@@ -82,6 +82,7 @@ End Header	*
    ========================================================================== */
 .internal-splash  {
 	background: url(../img/splash-internal.jpg) no-repeat;
+	height: 123px;
 }
 .services p {
 	display: inline-block;
@@ -153,7 +154,7 @@ End Header	*
 }
 .services-content {
 	width: 75%;
-	margin-top: 75px; 
+	margin-top: 25px; 
 	padding-left: 35px;
 }
 .services-content h2 {
@@ -187,9 +188,9 @@ End Header	*
 /* ==========================================================================
 	Locations Page
 	========================================================================= */
-.locations aside {
+aside.locations {
 	width: 24%;
-	margin-top: 75px;
+	margin-top: 25px;
 }
 .locations h2 {
 	font-family: 'Lato',sans-serif;
@@ -227,7 +228,7 @@ End Header	*
 }
 .location-content {
 	width: 75%;
-	margin-top: 75px; 
+	margin-top: 25px; 
 	padding-left: 35px;
 }
 

@@ -22,38 +22,40 @@
 	<div class="services clearfix wrap">
 		<p class="lato size-42"><i>my <span class="bold">meineke</span> gets me... <span class="bold yellow">back to my life.</span></i></p>
 
-			<select name="" class="right oil-change"><option>I Need To Change My Oil</option></select>
-
-		<aside class="locations left">
-			<h2>Our Meineke Locations</h2>
-			<p>Select an option below to make it your default location or enter your zip code.</p>
-			<input type="text" placeholder="enter zip and hit enter to submit"></input>
-			<ul>
-				<li><span>Meineke Car Care Center of Glendale</span>
-				<p>7105 N 51st Ave. Glendale, AZ <br />(480)446-8776</p>
-				<a href="">meineke.com</a></li>
-				<li><span>Meineke Car Care Center of Glendale</span>
-				<p>7105 N 51st Ave. Glendale, AZ <br />(480)446-8776</p>
-				<a href="">meineke.com</a></li>
-				<li><span>Meineke Car Care Center of Glendale</span>
-				<p>7105 N 51st Ave. Glendale, AZ <br />(480)446-8776</p>
-				<a href="">meineke.com</a></li>
-				<li><span>Meineke Car Care Center of Glendale</span>
-				<p>7105 N 51st Ave. Glendale, AZ <br />(480)446-8776</p>
-				<a href="">meineke.com</a></li>
-				<li><span>Meineke Car Care Center of Glendale</span>
-				<p>7105 N 51st Ave. Glendale, AZ <br />(480)446-8776</p>
-				<a href="">meineke.com</a></li>
-			</ul>
-
-			<a href=""><img src="img/facebook.png" alt="" class="fb"></a>
-			<p>*To Receive special offers only our Facebook memebers have access to.</p>
-		</aside>
-
-		<section class="location-content right">
-			<img src="img/map-ph.jpg">
-		</section>
+		<select name="" class="right oil-change"><option>I Need To Change My Oil</option></select>
 	</div>
+</div>
+
+<div class="wrap clearfix">
+	<aside class="locations left">
+		<h2>Our Meineke Locations</h2>
+		<p>Select an option below to make it your default location or enter your zip code.</p>
+		<input type="text" placeholder="enter zip and hit enter to submit"></input>
+		<ul>
+		<li><span>Meineke Car Care Center of Glendale</span>
+		<p>7105 N 51st Ave. Glendale, AZ <br />(480)446-8776</p>
+		<a href="">meineke.com</a></li>
+		<li><span>Meineke Car Care Center of Glendale</span>
+		<p>7105 N 51st Ave. Glendale, AZ <br />(480)446-8776</p>
+		<a href="">meineke.com</a></li>
+		<li><span>Meineke Car Care Center of Glendale</span>
+		<p>7105 N 51st Ave. Glendale, AZ <br />(480)446-8776</p>
+		<a href="">meineke.com</a></li>
+		<li><span>Meineke Car Care Center of Glendale</span>
+		<p>7105 N 51st Ave. Glendale, AZ <br />(480)446-8776</p>
+		<a href="">meineke.com</a></li>
+		<li><span>Meineke Car Care Center of Glendale</span>
+		<p>7105 N 51st Ave. Glendale, AZ <br />(480)446-8776</p>
+		<a href="">meineke.com</a></li>
+		</ul>
+
+		<a href=""><img src="img/facebook.png" alt="" class="fb"></a>
+		<p>*To Receive special offers only our Facebook memebers have access to.</p>
+	</aside>
+
+	<section class="location-content right">
+		<img src="img/map-ph.jpg">
+	</section>
 </div>
 
 <?php include('includes/bottom-content.php') ?>
