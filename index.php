@@ -20,7 +20,10 @@
 
 <div class="splash home">
 		<div class="wrap clearfix home-splash">
-			<h1>my meineke gets me...<br /> back to my life.</h1>
+			<p class="lato size-86 white"><i>my <span class="bold">meineke</span> gets me...<br /> <span class="bold yellow size-97">back to my life.</span></i></p><br />
+			<select name="" class="left oil-change">
+			<option>I Need To Change My Oil</option>
+		</select>
 		</div>
 </div>
 <div class="clearfix wrap">
