@@ -9,11 +9,11 @@
 		<div class="clearfix"></div><!-- Clearfix -->
 		<nav class="left">
 			<ul>
-				<li><a href="#" class="active">Home</a></li>
-				<li><a href="#">Auto Services</a></li>
+				<li><a href="index.php" class="active">Home</a></li>
+				<li><a href="services.php">Auto Services</a></li>
 				<li><a href="#">Coupons</a></li>
-				<li><a href="#">Change Location</a></li>
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="locations.php">Change Location</a></li>
+				<li><a href="contact.php">Contact Us</a></li>
 			</ul>
 		</nav>
 		<div class="header-btns right">
