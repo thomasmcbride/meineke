@@ -629,6 +629,9 @@ End Bottom Content & Footer	*
 .yellow {
 	color: #ffd200;
 }
+.white {
+	color: #fff;
+}
 .dark-gray{
 	color: #333333 !important;
 }
@@ -637,6 +640,12 @@ End Bottom Content & Footer	*
 }
 .size-42 {
 	font-size: 42px;
+}
+.size-86 {
+	font-size: 86px;
+}
+.size-97 {
+	font-size: 97px;
 }
 .lato {
 	font-family: 'Lato', sans-serif;
