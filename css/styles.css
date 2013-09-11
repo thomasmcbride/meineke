@@ -75,7 +75,33 @@
 /*
 End Header	*
 */
+/*
+	Index Page click through for ads and specials *
+*/
+ul.home-specials{
+	margin-bottom: 20px;
+}
+ul.home-specials li{
+	border: 1px solid #d5d5d5;
+	padding: 10px 0 10px 20px;
+	cursor:pointer;
+	color: #5f5b5b;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	width: 262px;
+	text-decoration: none;
+}
+ul.home-specials li.active{
+	background: url(../img/arrow.png) #da353d 98% center no-repeat;
+	padding: 10px 5px 10px 20px;
+	border: none;
+	color: #fff;
+}
 
+/*
+	End of the Click Through *
+*/
 
 /* ==========================================================================
    Services Page

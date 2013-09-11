@@ -9,7 +9,7 @@
 <title></title>
 <link rel="stylesheet" href="css/styles.css" type="text/css"/>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
+<script src="js/scripts.js"></script>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->   
@@ -25,6 +25,17 @@
 </div>
 <div class="clearfix wrap">
 <aside class="left scheduler">
+	<ul class="home-specials">
+		<li class="clickThrough active">
+			Current Specials
+		</li>
+		<li class="clickThrough2">
+			Quick Car Tips
+		</li>
+		<li class="clickThrough3">
+			Meineke Difference
+		</li>
+	</ul>
 	<div class="schedule">
 		<h2 class="center">Schedule An <span class="yellow size-30">Appointment</span></h2>
 		<p class="center">Fill out the form to schedule an appointment to come in. You will receive an email after we've confirmed the time and date.</p>
@@ -32,7 +43,7 @@
 			<input type="text" placeholder="Full Name">
 			<input type="text" placeholder="Email Address">
 			<input type="text" placeholder="Phone Number">
-			<select name="" id="">
+			<select>
 				<option value="">Best Time to reach you</option>
 			</select>
 			<submit class="submit-form"><a href="">SUBMIT FORM</a></submit>
@@ -42,7 +53,7 @@
 	<p>*To Receive special offers only our Facebook memebers have access to.</p>
 </aside>
 <section class="right content seventy">
-	<div class="clearfix">
+	<div class="clearfix currentSpecials">
 		<h1>Limited Time Offers</h1>
 		<p>Below are our limited time offered specials. Click to either print the coupon, or for more details if you are interested in any of the service specials. You can also call us if you have any additional questions regarding the savings.</p>
 		<div class="clearfix">
@@ -76,6 +87,14 @@
 				<p class="center"><img src="img/brakes.png" alt="Brakes"></p>
 			</div>
 		</div>
+	</div>
+	<div class="clearfix quickTips">
+		<h1>Limited Time Offers 2</h1>
+		<p>Below are our limited time offered specials. Click to either print the coupon, or for more details if you are interested in any of the service specials. You can also call us if you have any additional questions regarding the savings.</p>
+	</div>
+	<div class="clearfix meinekeDifference">
+		<h1>Limited Time Offers 3</h1>
+		<p>Below are our limited time offered specials. Click to either print the coupon, or for more details if you are interested in any of the service specials. You can also call us if you have any additional questions regarding the savings.</p>
 	</div>
 </section>
 </div>
