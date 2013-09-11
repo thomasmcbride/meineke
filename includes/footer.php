@@ -6,9 +6,9 @@
 					<h1>Site Links</h1>
 					<ul class="left site-links">
 						<li><a href="#">Home</a></li>
-						<li><a href="#">Auto Services</a></li>
+						<li><a href="services.php">Auto Services</a></li>
 						<li><a href="#">Coupons</a></li>
-						<li><a href="#">Change Location</a></li>
+						<li><a href="locations.php">Change Location</a></li>
 					</ul>
 					<ul class="left site-links">
 						<li><a href="#">Current Specials</a></li>
