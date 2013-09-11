@@ -233,6 +233,75 @@ aside.locations {
 }
 
 /* ==========================================================================
+   Contact Page
+   ========================================================================== */
+.contact-content {
+	width: 75%;
+	margin-top: 25px; 
+	padding-left: 35px;
+}
+.contact-content h2 {
+	color: #da353e;
+	font-size: 42px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+.contact-content p {
+	font-family: 'Arial',sans-serif;
+	font-size: 15px;
+	color: #5b5b5b;
+	margin-bottom: 20px;
+}
+.contact-content input {
+	width: 50%;
+	border: solid 1px #a8a8a8;
+	font-size: 19px;
+	color: #a8a8a8;
+	font-family: 'Lato',sans-serif;
+	font-weight: 300;
+	margin: 5px 0;
+	padding-left: 10px;
+}
+.contact-content select {
+	width: 50%;
+	border: solid 1px #a8a8a8;
+	font-size: 19px;
+	color: #a8a8a8;
+	font-family: 'Lato',sans-serif;
+	font-weight: 300;
+	margin: 5px 0;
+	padding-left: 10px;
+}
+.contact-content textarea {
+	width: 100%;
+	border: solid 1px #a8a8a8;
+	font-size: 19px;
+	color: #a8a8a8;
+	font-family: 'Lato',sans-serif;
+	font-weight: 300;
+	margin: 5px 0;
+	padding-left: 10px;
+}
+.contact-content submit {
+	background-color: #da353d;
+	display: inline-block;
+	padding: 15px;
+	margin-top: 15px;
+}
+.contact-content a {
+	text-decoration: none;
+	color: #fff;
+}
+.contact-content form {
+	font-size: 12px;
+	color: #313131;
+	font-family: 'Arial',sans-serif;
+}
+.checkbox {
+	width: auto !important;
+}
+
+/* ==========================================================================
    Splash
    ========================================================================== */
 /*
