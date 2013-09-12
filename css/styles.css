@@ -422,7 +422,26 @@ aside.scheduler {
 	width: 24%;
 	margin-top: 25px;
 }
+<<<<<<< HEAD
 
+=======
+.schedule h2 {
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+.schedule p {
+	font-family: 'Arial', sans-serif;
+	font-size: 13px;
+	color: #c2c2c2;
+	margin-bottom: 15px;
+}
+.schedule input {
+	margin: 6px 0;
+	width: 100%;
+}
+>>>>>>> f1eb2eb59411a6c060ab05d3c1dbd4db61400542
 .schedule select {
 	width: 100%;
 	color: #848484;
@@ -722,6 +741,9 @@ End Bottom Content & Footer	*
 	.splash {
 		display: none;
 	}
+	.internal-splash{
+		display: none;
+	}
 	.services-content {
 		padding: 10px;
 		width: 100%;
@@ -735,6 +757,7 @@ End Bottom Content & Footer	*
 	.services p {
 		color: #000;
 	}
+
 	header nav ul li{
 		margin-right: 10px;
 	}
@@ -771,6 +794,19 @@ End Bottom Content & Footer	*
 	.quote{
 		padding-bottom: 0px;
 	}
+	aside.locations {
+		width: 100%;
+	}
+	.contact-content {
+		padding-left: 10px;
+		width: 100%;
+	}
+	.contact-content input {
+		width: 100%;
+	}
+	.contact-content select {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width:480px) {
@@ -801,6 +837,9 @@ End Bottom Content & Footer	*
 		display: none;
 	}
 	.splash {
+		display: none;
+	}
+	.internal-splash{
 		display: none;
 	}
 	.services-content {
@@ -901,6 +940,19 @@ End Bottom Content & Footer	*
     .left{
     	float: none;
     }
+    aside.locations {
+		width: 100%;
+	}
+	.contact-content {
+		padding-left: 10px;
+		width: 100%;
+	}
+	.contact-content input {
+		width: 100%;
+	}
+	.contact-content select {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width:360px) {
@@ -933,6 +985,9 @@ End Bottom Content & Footer	*
 	.splash {
 		display: none;
 	}
+	.internal-splash{
+		display: none;
+	}
 	.services-content {
 		padding: 10px;
 		width: 100%;
@@ -947,11 +1002,25 @@ End Bottom Content & Footer	*
 	.services p {
 		color: #000;
 	}
+
 	ul.site-links li{
 	    text-align: left;
 	}
 	.table-layout {
     text-align: left;
+	}
+	aside.locations {
+		width: 100%;
+	}
+	.contact-content {
+		padding-left: 10px;
+		width: 100%;
+	}
+	.contact-content input {
+		width: 100%;
+	}
+	.contact-content select {
+		width: 100%;
 	}
 }
 
@@ -985,6 +1054,9 @@ End Bottom Content & Footer	*
 	.splash {
 		display: none;
 	}
+	.internal-splash{
+		display: none;
+	}
 	.services-content {
 		padding: 10px;
 		width: 100%;
@@ -997,5 +1069,18 @@ End Bottom Content & Footer	*
 	}
 	.services p {
 		color: #000;
+	}
+	aside.locations {
+		width: 100%;
+	}
+	.contact-content {
+		padding-left: 10px;
+		width: 100%;
+	}
+	.contact-content input {
+		width: 100%;
+	}
+	.contact-content select {
+		width: 100%;
 	}
 }
