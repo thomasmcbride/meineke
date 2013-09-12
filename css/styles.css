@@ -408,6 +408,9 @@ End Splash	*
 	font-weight: normal;
 	font-family: 'Lato', sans-serif;
 }
+.quickTips, .meinekeDifference{
+	display: none;
+}
 /*
 Aside
 */
@@ -643,6 +646,9 @@ End Bottom Content & Footer	*
 }
 .size-86 {
 	font-size: 86px;
+	font-weight: 300;
+	line-height: 89px;
+	margin-top: 45px;
 }
 .size-97 {
 	font-size: 97px;
