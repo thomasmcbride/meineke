@@ -135,7 +135,7 @@ ul.home-specials li.active{
 }
 .schedule {
 	background-color: #2a2a2a;
-	padding: 30px;
+	padding: 7%;
 }
 .schedule h2 {
 	font-size: 24px;
@@ -153,7 +153,7 @@ ul.home-specials li.active{
 	margin: 6px 0;
 	width: 100%;
 }
-.schedule [input=submit] {
+.schedule input.submit-form {
 	width: 100%;
 	color: #848484;
 	margin: 6px 0;
@@ -420,10 +420,6 @@ Aside
 aside.scheduler {
 	width: 24%;
 	margin-top: 25px;
-}
-.schedule {
-	background-color: #2a2a2a;
-	padding: 30px;
 }
 .schedule h2 {
 	font-size: 24px;
@@ -713,6 +709,9 @@ End Bottom Content & Footer	*
 	.splash {
 		display: none;
 	}
+	.internal-splash{
+		display: none;
+	}
 	.services-content {
 		padding: 10px;
 		width: 100%;
@@ -725,6 +724,19 @@ End Bottom Content & Footer	*
 	}
 	.services p {
 		color: #000;
+	}
+	aside.locations {
+		width: 100%;
+	}
+	.contact-content {
+		padding-left: 10px;
+		width: 100%;
+	}
+	.contact-content input {
+		width: 100%;
+	}
+	.contact-content select {
+		width: 100%;
 	}
 }
 
@@ -756,6 +768,9 @@ End Bottom Content & Footer	*
 		display: none;
 	}
 	.splash {
+		display: none;
+	}
+	.internal-splash{
 		display: none;
 	}
 	.services-content {
@@ -856,6 +871,19 @@ End Bottom Content & Footer	*
     .left{
     	float: none;
     }
+    aside.locations {
+		width: 100%;
+	}
+	.contact-content {
+		padding-left: 10px;
+		width: 100%;
+	}
+	.contact-content input {
+		width: 100%;
+	}
+	.contact-content select {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width:360px) {
@@ -888,6 +916,9 @@ End Bottom Content & Footer	*
 	.splash {
 		display: none;
 	}
+	.internal-splash{
+		display: none;
+	}
 	.services-content {
 		padding: 10px;
 		width: 100%;
@@ -901,6 +932,19 @@ End Bottom Content & Footer	*
 	}
 	.services p {
 		color: #000;
+	}
+	aside.locations {
+		width: 100%;
+	}
+	.contact-content {
+		padding-left: 10px;
+		width: 100%;
+	}
+	.contact-content input {
+		width: 100%;
+	}
+	.contact-content select {
+		width: 100%;
 	}
 }
 
@@ -934,6 +978,9 @@ End Bottom Content & Footer	*
 	.splash {
 		display: none;
 	}
+	.internal-splash{
+		display: none;
+	}
 	.services-content {
 		padding: 10px;
 		width: 100%;
@@ -946,5 +993,18 @@ End Bottom Content & Footer	*
 	}
 	.services p {
 		color: #000;
+	}
+	aside.locations {
+		width: 100%;
+	}
+	.contact-content {
+		padding-left: 10px;
+		width: 100%;
+	}
+	.contact-content input {
+		width: 100%;
+	}
+	.contact-content select {
+		width: 100%;
 	}
 }
