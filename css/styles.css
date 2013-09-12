@@ -91,7 +91,7 @@ ul.home-specials li{
 	font-size: 15px;
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
-	width: 262px;
+	width: 100%;
 	text-decoration: none;
 }
 ul.home-specials li.active{
@@ -135,7 +135,7 @@ ul.home-specials li.active{
 }
 .schedule {
 	background-color: #2a2a2a;
-	padding: 30px;
+	padding: 7%;
 }
 .schedule h2 {
 	font-size: 24px;
@@ -152,8 +152,9 @@ ul.home-specials li.active{
 .schedule input {
 	margin: 6px 0;
 	width: 100%;
+	padding: 2%;
 }
-.schedule [input=submit] {
+.schedule input.submit-form {
 	width: 100%;
 	color: #848484;
 	margin: 6px 0;
@@ -421,53 +422,12 @@ aside.scheduler {
 	width: 24%;
 	margin-top: 25px;
 }
-.schedule {
-	background-color: #2a2a2a;
-	padding: 30px;
-}
-.schedule h2 {
-	font-size: 24px;
-	color: #fff;
-	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
-}
-.schedule p {
-	font-family: 'Arial', sans-serif;
-	font-size: 13px;
-	color: #c2c2c2;
-	margin-bottom: 15px;
-}
-.schedule input {
-	margin: 6px 0;
-	width: 100%;
-}
+
 .schedule select {
 	width: 100%;
 	color: #848484;
 	margin: 6px 0;
-}
-.submit-form {
-	margin-top: 6px;
-	display: inline-block;;
-	background-color: #f8bf1c;
-	padding: 5px 0;
-}
-.submit-form a {
-	text-decoration: none;
-	color: #fff;
-	font-size: 14px;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	padding: 5px 54px;
-}
-.fb {
-	margin-top: 10px;
-}
-.scheduler p {
-	font-family: 'Arial', sans-serif;
-	font-size: 13px;
-	color: #8e8e8e;
-	margin:20px 0 15px 0;
+	padding: 2%;
 }
 
 /*
@@ -678,15 +638,64 @@ End Bottom Content & Footer	*
  /* =============================================================================
   Media Queries
   ========================================================================== */
-
+@media only screen and (max-width:1920px) {
+}
+@media only screen and (max-width:1280px) {
+}
 @media only screen and (min-width:1100px) {
        .wrap {
                width:1100px;
                margin:0 auto;        
        }
 }
-
+@media only screen and (max-width:980px) {
+	.size-86{
+		font-size: 77px;
+	}
+	.size-97{
+		font-size: 90px
+	}
+	.size-30{
+		font-size: 27px;
+	}
+}
+@media only screen and (max-width:800px) {
+	.size-86{
+		font-size: 55px;
+	}
+	.size-97{
+		font-size: 70px
+	}
+	.size-30{
+		font-size: 22px;
+	}
+	.schedule h2{
+		font-size: 22px;
+	}
+	.quote, .btm-text{
+		padding-left: 45px;
+	}
+	header nav ul li{
+		margin-right: 22px;
+	}
+	header nav ul li a{
+		font-size: 13px;
+	}
+}
 @media only screen and (max-width:768px) {
+	header nav ul li a{
+		font-size: 12px;
+	}
+	.header-btns a{
+		font-size: 12px;
+	}
+	.quote, .btm-text{
+		padding-left: 55px;
+	}
+	.quote h1{
+		font-size: 30px;
+	}
+
 }
 
 @media only screen and (max-width:640px) {
@@ -725,6 +734,42 @@ End Bottom Content & Footer	*
 	}
 	.services p {
 		color: #000;
+	}
+	header nav ul li{
+		margin-right: 10px;
+	}
+	header nav ul li a{
+		font-size: 11px;
+	}
+	.header-btns a{
+		font-size: 11px;
+		margin-right: 5px;
+	}
+	ul.site-links li{
+		border-bottom: 1px solid #D7D7D7;
+	    font-size: 16px;
+	    padding: 5px;
+	    text-align: center;
+	    width: 100%;
+	}
+	ul.site-links li a{
+		font-size: 16px;
+	}
+	.table-layout .table-cell{
+		display: block;
+	}
+	.table-layout {
+    display: block;
+    text-align: center;
+	}
+	.table-cell ul{
+		float: none !important;
+	}
+	.quote, .btm-text{
+		padding-left: 0;
+	}
+	.quote{
+		padding-bottom: 0px;
 	}
 }
 
@@ -901,6 +946,12 @@ End Bottom Content & Footer	*
 	}
 	.services p {
 		color: #000;
+	}
+	ul.site-links li{
+	    text-align: left;
+	}
+	.table-layout {
+    text-align: left;
 	}
 }
 
