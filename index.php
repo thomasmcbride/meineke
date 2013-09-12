@@ -10,6 +10,8 @@
 <link rel="stylesheet" href="css/styles.css" type="text/css"/>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js/matchmedia.js"></script>
+<script src="js/picturefill.js"></script>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->   
