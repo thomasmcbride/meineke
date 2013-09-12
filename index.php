@@ -51,7 +51,7 @@
 			<select>
 				<option value="">Best Time to reach you</option>
 			</select>
-			<submit class="submit-form"><a href="">SUBMIT FORM</a></submit>
+			<input type="submit" class="submit-form" value="SUBMIT FORM">
 		</form>
 	</div>
 	<a href=""><img src="img/facebook.png" alt="" class="fb"></a>
